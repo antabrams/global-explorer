@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Explorer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>🌍 Global Explorer</h1>
+    </header>
+
+    <!-- Search Section -->
+    <section class="input">
+      <label for="country-input">Search country</label>
+      <input type="text" id="country-input">
+      <button onclick="getCountry()">Get Country Info</button>
+    </section>
+
+    <!-- Country Basic Info -->
+    <section class="basic-info">
+      <h3 id="country-name"></h3>
+      <p id="country-capital"></p>
+      <p id="country-population"></p>
+      <p id="country-currency"></p>
+      <p id="country-timezone"></p>
+    </section>
+
+    <!-- Weather / Currency / Quick Info Cards -->
+    <section class="Weather-cards">
+      <div class="card-1">
+        <h3>🌤️ Weather</h3>
+        <p id="temp"></p>
+        <p id="feels"></p>
+      </div>
+
+      <div class="card-2">
+        <h3>💱 Currency</h3>
+        <p id="currency-to"></p>
+        <p id="currency-from"></p>
+      </div>
+
+      <div class="card-3">
+        <h3>📌 Quick Info</h3>
+        <p id="quick-capital"></p>
+        <p id="quick-lang"></p>
+      </div>
+    </section>
+
+    <!-- News Headlines -->
+    <section id="headline-cards">
+      <h3>📰 Latest Headlines</h3>
+      <div class="news-card">
+        <div class="image-card">
+          <img id="headline-img-1" src="placeholder.jpg" alt="News Image 1">
+          <p id="headline-1"></p>
+        </div>
+        <div class="image-card">
+          <img id="headline-img-2" src="placeholder.jpg" alt="News Image 2">
+          <p id="headline-2"></p>
+        </div>
+        <div class="image-card">
+          <img id="headline-img-3" src="placeholder.jpg" alt="News Image 3">
+          <p id="headline-3"></p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
