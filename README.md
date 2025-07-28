@@ -27,7 +27,7 @@
 
 # Installation
 
-1. Clone the repo: git clone https://github.com/YourUsername/global-explorer.git
+1. Clone the repo: git clone https://github.com/antabrams/global-explorer.git
 2. Navigate to the project folder: cd global-explorer
 3. nstall dependencies (if any backend or npm packages; otherwise skip)
 4. Run your server (if applicable): node server.js
